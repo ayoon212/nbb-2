@@ -10,8 +10,8 @@ const globalStyle = css`
     background-image: url('images/background.png');
     color: ${Theme.white};
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
   }
-
   .heading {
     color: ${Theme.primary};
     font-family: 'Raleway', sans-serif;
@@ -19,6 +19,9 @@ const globalStyle = css`
 
   .primary {
     color: ${Theme.primary};
+  }
+  .secondary {
+    color: ${Theme.secondary};
   }
 `;
 
@@ -29,7 +32,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>No Bathroom Breaks</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Lato|Gotu:100|Raleway:300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Lato:300,400|Gotu:100|Raleway:300&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Header />

@@ -15,13 +15,13 @@ const heroStyle = css`
     }
   }
   h2 {
-    font-weight: 400;
+    font-weight: 300;
   }
 `;
 
 export const Hero = () => (
   <section css={heroStyle}>
-    <img src="images/bg-1.jpg" />
+    <img src="images/bg-1.jpg" alt="Hero Image" />
     <div className="content">
       <h1 className="heading">No Bathroom Breaks</h1>
       <h2>Spreading the love and good vibes through jazz and hip-hop.</h2>
