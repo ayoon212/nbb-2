@@ -44,7 +44,7 @@ const socialStyle = css`
 export const Social = () => (
   <section css={socialStyle}>
     <h2 className="heading secondary">Follow Us</h2>
-    <div class="links">
+    <div className="links">
       {socialLinks.map(link => (
         <a key={link.title} href={link.href} title={link.title} target="_blank">
           {link.icon}
