@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core';
-import { Hero, Members, Social, SpotifyEmbed } from '../components';
+import { Hero, Social, SpotifyEmbed } from '../components';
 
 const homeStyle = css`
   main {
@@ -14,9 +14,8 @@ const Home = () => (
   <div css={homeStyle}>
     <main>
       <Hero />
-      <SpotifyEmbed />
       <Social />
-      <Members />
+      <SpotifyEmbed />
     </main>
 
     <style jsx>{`

@@ -24,7 +24,7 @@ export const Hero = () => (
     <img src="images/bg-1.jpg" alt="Hero Image" />
     <div className="content">
       <h1 className="heading">No Bathroom Breaks</h1>
-      <h2>Spreading the love and good vibes through jazz and hip-hop.</h2>
+      <p>Spreading the love and good vibes through jazz and hip-hop.</p>
     </div>
   </section>
 );
