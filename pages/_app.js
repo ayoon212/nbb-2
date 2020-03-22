@@ -2,7 +2,6 @@ import Head from 'next/head';
 import { Global, css } from '@emotion/core';
 import 'normalize.css';
 import { Theme } from '../styles/theme';
-import { Header } from '../components';
 
 const globalStyle = css`
   body {
@@ -11,9 +10,6 @@ const globalStyle = css`
     color: ${Theme.white};
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-  }
-  section:not(:first-child) {
-    margin: 3rem 0;
   }
   .heading {
     color: ${Theme.primary};
