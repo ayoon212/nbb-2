@@ -21,7 +21,7 @@ const heroStyle = css`
 
 export const Hero = () => (
   <section css={heroStyle}>
-    <img src="images/bg-1.jpg" alt="Hero Image" />
+    <img src="images/album-cover.png" alt="Hero Image" />
     <div className="content">
       <h1 className="heading">No Bathroom Breaks</h1>
       <p>Spreading the love and good vibes through jazz and hip-hop.</p>
