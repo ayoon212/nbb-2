@@ -1,3 +1,4 @@
+export { Divider } from './divider';
 export { Header } from './header';
 export { Hero } from './hero';
 export { Media } from './media';
