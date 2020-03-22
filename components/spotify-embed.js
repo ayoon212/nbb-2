@@ -11,6 +11,6 @@ const spotifyEmbedStyle = css`
 
 export const SpotifyEmbed = () => (
   <section css={spotifyEmbedStyle}>
-    <iframe src="https://open.spotify.com/embed/artist/01k0o5vgiibOGbGJg0HJ6D" height="240" frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/artist/01k0o5vgiibOGbGJg0HJ6D" height="240" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </section>
 );

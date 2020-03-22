@@ -5,7 +5,7 @@ import { Theme } from '../styles/theme';
 const dividerStyle = css`
   background-color: ${Theme.white};
   height: 2px;
-  margin: 3rem auto;
+  margin: 5rem auto;
   width: 92px;
 `;
 
