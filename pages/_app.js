@@ -12,6 +12,9 @@ const globalStyle = css`
     font-family: 'Lato', sans-serif;
     font-weight: 300;
   }
+  section:not(:first-child) {
+    margin: 3rem 0;
+  }
   .heading {
     color: ${Theme.primary};
     font-family: 'Raleway', sans-serif;
@@ -34,8 +37,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=PT+Sans|Lato:300,400|Gotu:100|Raleway:300&display=swap" rel="stylesheet"></link>
       </Head>
-
-      <Header />
 
       <Component {...pageProps} />
     </React.Fragment>

@@ -6,7 +6,7 @@ const homeStyle = css`
   main {
     margin: 0 auto;
     max-width: 800px;
-    padding: 0 1rem;
+    padding: 1rem;
   }
 `;
 
