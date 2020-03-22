@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Global, css } from '@emotion/core';
 import 'normalize.css';
 import { Theme } from '../styles/theme';
-import { Header } from '../components/header';
+import { Header } from '../components';
 
 const globalStyle = css`
   body {
@@ -15,6 +15,10 @@ const globalStyle = css`
   .heading {
     color: ${Theme.primary};
     font-family: 'Raleway', sans-serif;
+  }
+
+  .primary {
+    color: ${Theme.primary};
   }
 `;
 

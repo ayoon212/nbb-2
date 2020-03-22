@@ -3,5 +3,3 @@ export const Header = () => (
     No Bathroom Breaks
   </header>
 );
-
-export default Header;
